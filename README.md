@@ -9,12 +9,81 @@
 
 
 ## 👩🏻‍💻 Back-end Work Details
-### 원재연
-### 이병재
+### 공통 
+ - Aquery Tool을 이용한 모델링
+ - git rebase를 활용한 효율적인 커밋 관리
+ - API document, Trello를 이용한 양방향 소통
+
 ### 정재유
+* 회원가입 및 로그인
+  - 로직 모듈화를 통한 코드 단축
+  - bcrypt 암호화
+  - JWT 액세스 토큰 발행
+  - Oauth2를 통한 소셜 로그인 구현
+    + KAKAO
+    + GOOGLE
+    + NAVER
+  - 초기화 된 비밀번호 이메일 전송
+    + django 내장된 모듈(EmailMessage) 활용
+
+### 원재연
+* 공고 리스트 구현
+  - 검색 기능 구현
+    + 회사 검색 가능
+    + 공고명 검색가능
+    + icontains를 활용한 단어검색 가능
+  - 좋아요 기능 구현
+    + 공고에 해당하는 좋아요 수 집계
+    + 데이터베이스 효율성을 높이기 위해 create,delete가 아닌 ```is_liked``` column을 추가하여 데이터베이스 관리
+  - 태그를 통한 필터링 구현
+  
+* 공고 상세정보 구현
+  
+* 공고 지원하기
+  
+* AWS(EC2/RDS),Docker를 활용한 인프라 구축 및 배포
+
+### 이병재
+* 이력서 불러오기
+
+* 작성한 이력서 저장하기
+
+* 이력서 PDF 업로드
+
+* 업로드 한 이력서 PDF 다운로드
+
+* 작성 한 이력서 PDF 변환 후 다운로드
+
+* 이력서 목록 불러오기
+
 ## 🔧 Skills
-- ![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
-- ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+
+### Framework
+- Django
+### Language
+- Python
+### DB
+- Mysql
+- RDS
+- AqueryTool
+- CSV
+- db_uploader
+### 배포 및 통신
+- Docker
+- EC2
+- S3
+- Postman
+- httpie
+- JSON
+### 기타
+- Google Geocoder
+- Kakao social login API
+- Google social login API
+- Naver social login API
+- JWT
+- bcrypt
+- corsheaders
+- transaction
 
 ## 🔧 Tools
 - <img alt="Trello" src="https://img.shields.io/badge/Trello-%23026AA7.svg?&style=for-the-badge&logo=Trello&logoColor=white"/>
